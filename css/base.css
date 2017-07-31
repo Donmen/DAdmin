@@ -1,0 +1,38 @@
+.bg-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    min-height: 426px;
+}
+
+
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.login-img {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+}
+.login-user-icon, .login-pwd-icon {
+    position: absolute;
+    width: 18px;
+    height: 19px;
+}
+.login-user-icon {
+    background: url("../images/user.png");
+    top: 90px;
+    left: 35px;
+}
+.login-pwd-icon {
+    top: 138px;
+    left: 36px;
+    background: url("../images/password.png");
+}
