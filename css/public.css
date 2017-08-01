@@ -5,3 +5,14 @@
 .pd-left-30 {
     padding-left: 30px;
 }
+
+.clearfix:before, .clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix{
+    *zoom:1;
+}

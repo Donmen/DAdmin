@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/public.css">
     <!--基础样式-->
     <link rel="stylesheet" href="css/base.css">
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+
 </head>
 <body>
     <div class="bg-black bg-img">
@@ -19,16 +21,17 @@
                     <div class="panel panel-default">
                         <div><img src="images/logo.png" class="login-img"></div>
                         <div class="panel-body">
-                            <form>
-                                <div class="form-group">
-                                    <input type="text" class="form-control pd-left-30" placeholder="姓名">
+                            <form action="#">
+                                <div class="form-group ">
+                                    <input id="user" type="text" class="form-control pd-left-30" placeholder="姓名">
                                     <div class="login-user-icon"></div>
                                 </div>
-                                <div class="form-group">
-                                    <input type="password" class="form-control pd-left-30" placeholder="密码">
+                                <div class="form-group ">
+                                    <input id="password" type="password" class="form-control pd-left-30" placeholder="密码">
                                     <div class="login-pwd-icon"></div>
                                 </div>
-                                <button class="btn btn-submit btn-lg btn-block" onclick="getvalue()">登录</button>
+                                    <p id="hint">123</p>
+                                <button id="login" class="btn btn-submit btn-lg btn-block">登录</button>
                             </form>
                         </div>
                     </div>
@@ -36,5 +39,6 @@
             </div>
         </div>
     </div>
+    <script src="js/login.js"></script>
 </body>
 </html>
